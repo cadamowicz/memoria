@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-
                 Intent intent = new Intent(MainActivity.this, Main_Tela2.class);
                 intent.putExtra("memoria",texto.getText().toString());
                 startActivity(intent);

@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Memoria"
         tools:targetApi="31">
         <activity
+            android:name=".Main_Tela3"
+            android:exported="false" />
+        <activity
             android:name=".Main_Tela2"
             android:exported="false" />
         <activity
